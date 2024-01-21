@@ -1,6 +1,6 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Hola!</h1>
 
     <div class="paragraph">
       <div>
@@ -14,7 +14,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar_nunu.png" alt="Nuria Oujo img" style="width: 200px" />
     </div>
 
     <div style="clear:both"></div>
