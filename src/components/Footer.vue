@@ -2,7 +2,7 @@
   <div class="footer">
     
     <div class="left">Nuria Oujo</div>
-    <div class="right">Contactemos a través de <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o <a href="/contact">pulsando aquí</a></div>
+    <div class="right">Contactemos a través de <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o <router-link to="/contact">pulsando aquí</router-link></div>
   </div>
 </template>
 
