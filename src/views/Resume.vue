@@ -84,6 +84,7 @@
       <div class="skill-set">
         <h3>Desarrollo Full Stack </h3>
         <SkillRate name="TypeScript" :rate="4" />
+        <SkillRate name="JavaScript" :rate="4" />
         <SkillRate name="HTML5" :rate="4" />
         <SkillRate name="CSS3" :rate="4" />
         <SkillRate name="Angular" :rate="3" />
@@ -131,8 +132,14 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+
+h1 {
+  font-family: 'Fira Sans';
+}
+
 h2 {
   font-weight: 100;
+  font-family: 'Fira Sans';
   font-size: 2em;
   margin: 0px;
   padding: 0px;

@@ -23,6 +23,11 @@
 </template>
 
 <style scoped>
+
+h1 {
+  font-family: 'Fira Sans';
+}
+
 .paragraph {
   max-width: 700px;
   margin-bottom: 20px;

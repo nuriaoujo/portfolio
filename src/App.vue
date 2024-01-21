@@ -2,6 +2,7 @@
   <div id="app">
     
     <link rel="stylesheet" href="@/assets/projects/projects.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
 
     <Header />
     <div class="main">

@@ -14,6 +14,14 @@
   </div>
 </template>
 
+<style scoped>
+
+h1 {
+  font-family: 'Fira Sans';
+}
+
+</style>
+
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";

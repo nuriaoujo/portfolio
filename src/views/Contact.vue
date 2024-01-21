@@ -28,6 +28,11 @@
 </template>
 
 <style scoped>
+
+h1 {
+  font-family: 'Fira Sans';
+}
+
 ul {
   list-style: none;
   padding-inline-start: 0px;
