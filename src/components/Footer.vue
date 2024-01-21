@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     
-    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio</a> by schouffy</div>
-    <div class="right">Reach me at <a href="mailto:my@email.com">my@email.com</a> or <router-link to="/contact">through here</router-link></div>
+    <div class="left">Nuria Oujo</div>
+    <div class="right">Contactemos a través de <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o <a href="/contact">pulsando aquí</a></div>
   </div>
 </template>
 
