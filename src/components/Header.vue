@@ -1,11 +1,11 @@
 <template>
   <div class="header">
     <div class="nav-bar">
-      <router-link to="/">About me</router-link>
-      <router-link to="/game-projects">Stuff</router-link>
-      <router-link to="/other-projects">Other stuff</router-link>
-      <router-link to="/resume">Resume</router-link>
-      <router-link to="/contact">Contact</router-link>
+      <router-link to="/">Sobre mi</router-link>
+      <router-link to="/game-projects">Desarrollo FullStack</router-link>
+      <router-link to="/other-projects">Diseño UX·UI</router-link>
+      <router-link to="/resume">Perfil</router-link>
+      <router-link to="/contact">Contacto</router-link>
     </div>
   </div>
 </template>
