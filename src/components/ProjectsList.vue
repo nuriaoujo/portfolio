@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div class="projects-list">
+      <div class="projects-list" style="height: 350px">
         <template v-for="project in projects">
           <div
             :key="project.id"
@@ -88,10 +88,6 @@ export default Vue.extend({
   transform: scale(1.1);
 }
 
-.project-item:hover {
-filter: brightness(120%);
-}
-
 .title-bar {
   position: absolute;
   bottom: 0px;
@@ -100,6 +96,9 @@ filter: brightness(120%);
 }
 
 .title-text {
+  background-color: #FDF6EC;
+  border: 1px solid #B7CADB;
+  color: #0F2C59;
   padding: 10px;
 }
 

@@ -1,11 +1,17 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Diseño UX/UI</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      Gracias al Curso en <strong>Diseño de Experiencia de Usuario</strong>, he realizado tres proyectos finales de aplicación,
+      <br/>
+      tanto móvil como web, siguiendo rigurosamente todos los pasos de aprendidos.
+      <br/>
+      <br/>
+
     </div>
     <ProjectsList v-bind:projects="projects" />
+    <br/>
   </div>
 </template>
 
