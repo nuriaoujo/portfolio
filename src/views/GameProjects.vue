@@ -3,7 +3,9 @@
     <h1>Desarrollo Full Stack</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some stuff I've made or heavily contributed to.
+      Actualmente me estoy formando activamente como <strong>Desarrolladora Full Stack</strong>.
+      <br/>
+      Estos son algunos de los proyectos que he finalizado durante estos últimos meses.
     </div>
 
     <ProjectsList v-bind:projects="projects" class="proyects-margin" />
