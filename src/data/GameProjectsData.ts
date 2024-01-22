@@ -137,26 +137,22 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
     </div>
     `, "#DAB88B"),
-    new ProjectData("project-5", "BlackJack", "img/projects/project-5-icon.png", `
+    new ProjectData("project-5", "BlackJack", "img/projects/project-5.png", `
     <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
+        <strong>BlackJack</strong> es un proyecto realizado en el curso de dev/talles con la finalidad de practicar sobre JavaScript.
+        <br/>
+        Puedes conocer más sobre este curso accediendo a <router-link to="/contact">este enlace</router-link>. 
+        <br/>
+        <span style="font-style: italic; color: #9db6cc;">
+        Tecnologías: JavaScript · Vite. 
+    </span>
     </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
+
+    <hr>
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Visualizar demo en <a href="https://github.com/yourself" target="_blank">GitHub</a>.
         </div>
     </div>
 
