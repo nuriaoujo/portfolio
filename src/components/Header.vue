@@ -2,7 +2,7 @@
   <div class="header">
     <div class="nav-bar">
       <router-link to="/">Sobre mi</router-link>
-      <router-link to="/game-projects">Desarrollo FullStack</router-link>
+      <router-link to="/game-projects">Desarrollo Full Stack</router-link>
       <router-link to="/other-projects">Diseño UX·UI</router-link>
       <router-link to="/resume">Perfil</router-link>
       <router-link to="/contact">Contacto</router-link>
