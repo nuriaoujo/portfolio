@@ -4,13 +4,16 @@
 
     <div class="paragraph">
       <div>
-        Soy <strong>Nuria Oujo</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        Soy <strong>Nuria Oujo</strong>, Desarrolladora Junior Full Stack y Diseñadora UX/UI.<br/>
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">Actualmente colaboro activamente en la gestión de redes del club de orientación
+      <br/>
+      <a href="https://www.instagram.com/adcarnela/" target="_blank">ADC Arnela</a> mientras me formo en <router-link to="/resume">Desarrollo Full Stack</router-link>.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">En estos momentos busco empleo como <strong>Desarrolladora Front End</strong>, 
+      pero estoy abierta a explorar otras posibilidades laborales. Te invito a que nos mantengamos en contacto a través 
+      de mi correo <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o pulsando el siguiente botón.</div>
     
       <div class="button-connect">
         <router-link class="router-link" to="/contact">
@@ -37,7 +40,7 @@ h1 {
 }
 
 .button-connect {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 78%;
   padding: 9px;
   border: 1.5px solid #B7CADB;
