@@ -38,10 +38,22 @@ export default [
 
     <h2>Capturas del proyecto</h2>
 
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="img/projects/web/whegym/img1.png" alt="iDERS Screenshot" />
-        <img class="phone-screenshot" src="img/projects/web/whegym/img2.png" alt="iDERS Screenshot" />
-        <img class="phone-screenshot" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
+    <div id="slideshow">
+        <div class="slide-wrapper">
+             
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img2.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img1.png" alt="iDERS Screenshot" />
+            </div>
+
+        </div>
     </div>
     `, "#DAB88B", true),
     new ProjectData("project-2", "ProductsApp", "img/projects/project-2.png", `
@@ -59,16 +71,30 @@ export default [
     </span>
 
     <div class="paragraph">
-    <div class="notice">
-        Visualizar proyecto en <a href="https://github.com/nuriaoujo/products-app" target="_blank">GitHub</a>.
-    </div>
+        <div class="notice">
+            Visualizar proyecto en <a href="https://github.com/nuriaoujo/products-app" target="_blank">GitHub</a>.
+        </div>
     </div>
 
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <div id="slideshow">
+        <div class="slide-wrapper">
+             
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img2.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img1.png" alt="iDERS Screenshot" />
+            </div>
+
+        </div>
     </div>
+
+    
     `, "#DAB88B"),
     new ProjectData("project-3", "Gifs App", "img/projects/project-3-icon.png", `
     <div class="paragraph">
@@ -81,11 +107,22 @@ export default [
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+    <div id="slideshow">
+        <div class="slide-wrapper">
+             
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img2.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img1.png" alt="iDERS Screenshot" />
+            </div>
+
+        </div>
     </div>
     `, "#DAB88B"),
     new ProjectData("project-4", "TODO App", "img/projects/project-4.png", `
@@ -106,9 +143,22 @@ export default [
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
+    <div id="slideshow">
+        <div class="slide-wrapper">
+             
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img2.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img1.png" alt="iDERS Screenshot" />
+            </div>
+
+        </div>
     </div>
     `, "#DAB88B"),
     new ProjectData("project-5", "BlackJack", "img/projects/project-5.png", `
@@ -126,9 +176,22 @@ export default [
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#DAB88B")
+    <div id="slideshow">
+        <div class="slide-wrapper">
+             
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img2.png" alt="iDERS Screenshot" />
+            </div>
+
+            <div class="slide">
+                <img class="slide-number" src="img/projects/web/whegym/img1.png" alt="iDERS Screenshot" />
+            </div>
+
+        </div>
+    </div>
+    `, "#DAB88B")
 ];
