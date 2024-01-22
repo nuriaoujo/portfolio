@@ -20,7 +20,7 @@ export default [
 
      <div class="paragraph">
         <div class="notice">
-            Visualizar proyecto en <a href="https://github.com/CampusDual/demos/tree/main/public/2023-BFS-3-G3_WheGym" target="_blank">Github</a>.
+            Visualizar proyecto en <a href="https://github.com/CampusDual/demos/tree/main/public/2023-BFS-3-G3_WheGym" target="_blank">GitHub</a>.
         </div>
     </div>
 
@@ -110,25 +110,23 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#DAB88B"),
-    new ProjectData("project-4", "TODOApp", "img/projects/project-4.png", `
+    new ProjectData("project-4", "TODO App", "img/projects/project-4.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+    <strong>TODO App</strong> es un proyecto creado en el curso de JavaScript moderno de dev/talles, donde se elabora
+    <br/>
+    una aplicación web que añade y elimina elementos a una lista de cosas para hacer.
+    <br/>
+    <span style="font-style: italic; color: #9db6cc;">
+        Tecnologías: JavaScript · Vite. 
+    </span>
+
     </div>
     
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
+    <hr>
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
+        Visualizar demo en <a href="https://nuriaoujo.github.io/todo-app/" target="_blank">GitHub Pages</a>.
         </div>
     </div>
 
@@ -142,15 +140,15 @@ export default [
         <strong>BlackJack</strong> es un proyecto realizado en el curso de dev/talles con la finalidad de practicar sobre JavaScript.
         <br/>
         <span style="font-style: italic; color: #9db6cc;">
-        Tecnologías: JavaScript · Vite. 
-    </span>
+            Tecnologías: JavaScript · Vite. 
+        </span>
     </div>
 
     <hr>
 
     <div class="paragraph">
         <div class="notice">
-        Visualizar demo en <a href="https://nuriaoujo.github.io/blackjack-vite/" target="_blank">GitHub</a>.
+        Visualizar demo en <a href="https://nuriaoujo.github.io/blackjack-vite/" target="_blank">GitHub Pages</a>.
         </div>
     </div>
 
