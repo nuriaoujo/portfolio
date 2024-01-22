@@ -2,9 +2,9 @@ import ProjectData from '@/data/ProjectData.ts'
 
 export default [
 
-    new ProjectData("project-7", "YAcomer!", "img/projects/mobile/yacomer-prueba.jpg", `
+    new ProjectData("project-7", "Yacomer!", "img/projects/mobile/yacomer-prueba.jpg", `
       <div class="paragraph">
-        <strong>YAcomer!</strong> Es una nueva aplicación para realizar pedidos para restaurantes en España.
+        <strong>Yacomer!</strong> Es una nueva aplicación para realizar pedidos para restaurantes en España.
         <br/> 
         Ofrece una gran variedad de propuestas de menú, explicaciones de los platos y posibilidad de escoger 
         ingredientes con la finalidad de que sea más accesible para todo el mundo.
@@ -20,7 +20,7 @@ export default [
       </div>
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a style="text-decoration: none;  color: #0F2C59;" href="d/Portfolio_appBicis.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi Proyecto</a>
+        <a style="text-decoration: none;  color: #0F2C59;" href="d/Portfolio_appComidaDomicilio.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi Proyecto</a>
         <div style="clear:both"></div>
       </div>
 
@@ -77,7 +77,7 @@ export default [
       </div>
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a style="text-decoration: none;  color: #0F2C59;" href="d/Portfolio_appBicis.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi Proyecto</a>
+        <a style="text-decoration: none;  color: #0F2C59;" href="d/Portfolio_appFuentesPotables.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi Proyecto</a>
         <div style="clear:both"></div>
       </div>
 
