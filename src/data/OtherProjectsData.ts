@@ -25,9 +25,9 @@ export default [
       </div>
 
       <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
+          <img class="pc-screenshot" src="img/projects/mobile/yacomer/img1.png" alt="Yacomer Screenshot" />
+          <img class="pc-screenshot" src="img/projects/mobile/yacomer/img2.png" alt="Yacomer Screenshot" />
+          <img class="pc-screenshot" src="img/projects/mobile/yacomer/img3.png" alt="Yacomer Screenshot" /> 
       </div>
     `, "#DAB88B"),
 
@@ -54,9 +54,9 @@ export default [
       </div>
 
       <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
+        <img class="pc-screenshot" src="img/projects/mobile/iders/img1.png" alt="iDERS Screenshot" />
+        <img class="pc-screenshot" src="img/projects/mobile/iders/img2.png" alt="iDERS Screenshot" />
+        <img class="pc-screenshot" src="img/projects/mobile/iders/img3.png" alt="iDERS Screenshot" /> 
       </div>
     `, "#DAB88B"),
 
@@ -82,9 +82,9 @@ export default [
       </div>
 
       <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
+        <img class="pc-screenshot" src="img/projects/mobile/fontline/img1.png" alt="FontLine Screenshot" />
+        <img class="pc-screenshot" src="img/projects/mobile/fontline/img2.png" alt="FontLine Screenshot" />
+        <img class="pc-screenshot" src="img/projects/mobile/fontline/img3.png" alt="FontLine Screenshot" /> 
       </div>
     `, "#DAB88B"),
 ];

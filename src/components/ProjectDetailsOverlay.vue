@@ -70,7 +70,7 @@ iframe {
 }
 
 h1.dialog-title {
-  color: #0F2C59;
+  color: #FDF6EC;
   font-family: 'Fira Sans';
   text-align: center;
   font-size: 1.3em;
