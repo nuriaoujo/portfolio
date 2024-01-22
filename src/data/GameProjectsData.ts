@@ -18,8 +18,6 @@ export default [
         Tecnologías: Ontimize · Angular · Spring · PostgreSQL. 
     </span>
 
-    <hr>
-
      <div class="paragraph">
         <div class="notice">
             Visualizar proyecto en <a href="https://github.com/CampusDual/demos/tree/main/public/2023-BFS-3-G3_WheGym" target="_blank">GitHub</a>.
@@ -60,8 +58,6 @@ export default [
         Tecnologías: Angular · Spring · SQL. 
     </span>
 
-    <hr>
-
     <div class="paragraph">
     <div class="notice">
         Visualizar proyecto en <a href="https://github.com/nuriaoujo/products-app" target="_blank">GitHub</a>.
@@ -77,26 +73,11 @@ export default [
     new ProjectData("project-3", "Gifs App", "img/projects/project-3-icon.png", `
     <div class="paragraph">
         <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Visualizar demo en <a href="https://github.com/nuriaoujo/gifts-app-angularproject" target="_blank">GitHub Pages</a>.
         </div>
     </div>
 
@@ -118,8 +99,6 @@ export default [
     </span>
 
     </div>
-    
-    <hr>
 
     <div class="paragraph">
         <div class="notice">
@@ -140,8 +119,6 @@ export default [
             Tecnologías: JavaScript · Vite. 
         </span>
     </div>
-
-    <hr>
 
     <div class="paragraph">
         <div class="notice">

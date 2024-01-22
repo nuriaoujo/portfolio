@@ -19,8 +19,6 @@ export default [
 
       </div>
 
-      <hr>
-
       <div class="paragraph">
         <div class="notice">
             Visualizar proyecto en <a href="https://www.figma.com/proto/GWX9KcbgbrEOuvpRn5Pz6N/AppYAcomer?node-id=161-3&starting-point-node-id=161%3A3&mode=design&t=G34xWuBDqXuqS23v-1" target="_blank">Figma</a>.
@@ -56,8 +54,6 @@ export default [
 
       </div>
 
-      <hr>
-
       <div class="paragraph">
         <div class="notice">
             Visualizar proyecto en <a href="https://www.figma.com/proto/BGl6cvqHiPpTGjFnBwH8OP/AppiDERS?type=design&node-id=5-1036&t=pi3auO3CLpI5ojWi-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=5%3A1036&show-proto-sidebar=1&mode=design" target="_blank">Figma</a>.
@@ -91,8 +87,6 @@ export default [
       </span>
       
       </div>
-      
-      <hr>
 
       <div class="paragraph">
         <div class="notice">
