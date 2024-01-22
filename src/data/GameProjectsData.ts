@@ -59,7 +59,7 @@ export default [
     </div>
 
     <span style="font-style: italic; color: #9db6cc;">
-        Tecnologías: Angular · Spring · SQL. 
+        Tecnologías: Angular · Spring · HSQLDB. 
     </span>
 
     <div class="paragraph">
@@ -87,10 +87,21 @@ export default [
     </div>
     `, "#DAB88B"),
 
-    new ProjectData("project-3", "Gifs App", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "Gifs App", "img/projects/project-2.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
+        <strong>Gifs App</strong> es mi proyecto más reciente realizado con Angular. Con este ejercicio estoy aprendiendo las bases de
+        <br/>
+        Angular, además de conocer cómo realizar peticiones HTTP desde este Framework.
+        <br/>
+        En Gifs App se recopilan diferentes gifs dependiendo de la búsqueda que se realice. Además, tus últimos 10 
+        <br/>
+        registros de tu historial
+        son guardados en una barra lateral para reutilizar tus búsquedas recientes.
     </div>
+
+    <span style="font-style: italic; color: #9db6cc;">
+        Tecnologías: Angular. 
+    </span>
 
     <div class="paragraph">
         <div class="notice">
@@ -99,7 +110,7 @@ export default [
     </div>
 
     <div class="paragraph">
-        <img class="slide-number" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
+        <img class="slide-number" src="img/projects/web/extras/todoapp-img.png" alt="iDERS Screenshot" />
     </div>
     `, "#DAB88B"),
 
@@ -109,8 +120,10 @@ export default [
     <br/>
     una aplicación web que añade y elimina elementos a una lista de cosas para hacer.
     <br/>
+    Para realizar el proyecto, se ha utilizado HTML5, CSS3 y JavaScript.
+    <br/>
     <span style="font-style: italic; color: #9db6cc;">
-        Tecnologías: JavaScript · Vite. 
+        Tecnologías: JavaScript · HTML5 · CSS3 · Vite. 
     </span>
 
     </div>
@@ -130,8 +143,10 @@ export default [
     <div class="paragraph">
         <strong>BlackJack</strong> es un proyecto realizado en el curso de dev/talles con la finalidad de practicar sobre JavaScript.
         <br/>
+        Para ello, se ha utilizado como base el juego del BlackJack para practicar diversas funciones.
+        <br/>
         <span style="font-style: italic; color: #9db6cc;">
-            Tecnologías: JavaScript · Vite. 
+            Tecnologías: JavaScript · HTML5 · CSS3 · Vite.
         </span>
     </div>
 
