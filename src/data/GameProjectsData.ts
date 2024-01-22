@@ -12,6 +12,8 @@ export default [
      <br/>
      Las suscripciones se ajustan al tipo de perfil registrado, teniendo una única cuota para los gimnasios y 3 opciones distintas para el usuario de gimnasio.
      <br/>
+     Este proyecto ha sido realizado junto a <a href="https://www.linkedin.com/in/emmaipi%C3%B1eiro/" target="_blank">Emma Iglesias</a> y <a href="https://www.linkedin.com/in/marta99/ target="_blank">Marta Dieguez</a>.
+     <br/>
      <span style="font-style: italic; color: #9db6cc;">
         Tecnologías: Ontimize · Angular · Spring · PostgreSQL. 
     </span>
@@ -46,11 +48,16 @@ export default [
     `, "#DAB88B", true),
     new ProjectData("project-2", "ProductsApp", "img/projects/project-2.png", `
     <div class="paragraph">
-        <strong>Products App</strong> es el primer proyecto Full Stack que he realizado.
+        <strong>Products App</strong> es el primer proyecto Full Stack que he realizado dentro del Bootcamp en <strong>Introducción a la Programación</strong>.
+        <br/>
+        Esta aplicación web se dedica para gestionar productos de una tienda online y poder visualizarlos por pantalla. Además, se pueden introducir nuevos elementos, modificarlos o borrarlos.
+        <br/>
+
+        Para el Front End se ha utilizado Angular Material para visualizar los productos, sus detalles y gráficas. Todo esto en combinación con Spring para el Back End y HSQLDB.
     </div>
 
     <span style="font-style: italic; color: #9db6cc;">
-        Tecnologías: Angular · Spring · PostgreSQL. 
+        Tecnologías: Angular · Spring · SQL. 
     </span>
 
     <hr>
