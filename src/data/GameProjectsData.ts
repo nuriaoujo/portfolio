@@ -110,7 +110,7 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#DAB88B"),
-    new ProjectData("project-4", "TODOApp", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "TODOApp", "img/projects/project-4.png", `
     <div class="paragraph">
     <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
     <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
@@ -141,8 +141,6 @@ export default [
     <div class="paragraph">
         <strong>BlackJack</strong> es un proyecto realizado en el curso de dev/talles con la finalidad de practicar sobre JavaScript.
         <br/>
-        Puedes conocer más sobre este curso accediendo a <router-link to="/contact">este enlace</router-link>. 
-        <br/>
         <span style="font-style: italic; color: #9db6cc;">
         Tecnologías: JavaScript · Vite. 
     </span>
@@ -152,7 +150,7 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        Visualizar demo en <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Visualizar demo en <a href="https://nuriaoujo.github.io/blackjack-vite/" target="_blank">GitHub</a>.
         </div>
     </div>
 
