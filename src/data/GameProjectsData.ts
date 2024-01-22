@@ -44,34 +44,24 @@ export default [
         <img class="phone-screenshot" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
     </div>
     `, "#DAB88B", true),
-    new ProjectData("project-2", "ProductsApp", "img/projects/project-2-icon.png", `
+    new ProjectData("project-2", "ProductsApp", "img/projects/project-2.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <strong>Products App</strong> es el primer proyecto Full Stack que he realizado.
     </div>
 
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
+    <span style="font-style: italic; color: #9db6cc;">
+        Tecnologías: Angular · Spring · PostgreSQL. 
+    </span>
+
+    <hr>
 
     <div class="paragraph">
     <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Visualizar proyecto en <a href="https://github.com/nuriaoujo/products-app" target="_blank">GitHub</a>.
     </div>
     </div>
 
     <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
     <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
     <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
     <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
