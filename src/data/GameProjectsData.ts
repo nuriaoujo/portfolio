@@ -1,32 +1,47 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "WheGym", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "WheGym", "img/projects/project-1.jpg", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+     <strong>WheGym</strong> es una plataforma que pone en contacto a usuarios de gimnasios con los propios gimnasios, 
+     de forma similar a los marketplace.
+     <br/>
+     Sin importar donde resida, un usuario suscrito puede acudir a cualquier gimnasio que se encuentre en la plataforma.
+     Los gimnasios dados de alta pueden dar a conocer su negocio y los servicios para llegar a un público mucho más amplio.
+     <br/>
+     Las suscripciones se ajustan al tipo de perfil registrado, teniendo una única cuota para los gimnasios y 3 opciones distintas para el usuario de gimnasio.
+     <br/>
+     <span style="font-style: italic; color: #9db6cc;">
+        Tecnologías: Ontimize · Angular · Spring · PostgreSQL. 
+    </span>
+
+    <hr>
+
+     <div class="paragraph">
+        <div class="notice">
+            Visualizar proyecto en <a href="https://github.com/CampusDual/demos/tree/main/public/2023-BFS-3-G3_WheGym" target="_blank">Github</a>.
+        </div>
     </div>
 
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+     <div style="margin-top:20px; margin-bottom:20px;">
+        <a style="text-decoration: none;  color: #0F2C59;" href="d/whegym_presentacion.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga la Presentación</a>
+        <div style="clear:both"></div>
+      </div>
+
+    </div>
+    <div class="paragraph center">
+    <iframe width="660" height="405" src="https://www.youtube.com/embed/WbxBqav22pE?si=16SSHcufayQZegin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
+    <hr>
+
+    <h2>Capturas del proyecto</h2>
+
     <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <img class="phone-screenshot" src="img/projects/web/whegym/img1.png" alt="iDERS Screenshot" />
+        <img class="phone-screenshot" src="img/projects/web/whegym/img2.png" alt="iDERS Screenshot" />
+        <img class="phone-screenshot" src="img/projects/web/whegym/img3.png" alt="iDERS Screenshot" />
     </div>
     `, "#DAB88B", true),
     new ProjectData("project-2", "ProductsApp", "img/projects/project-2-icon.png", `

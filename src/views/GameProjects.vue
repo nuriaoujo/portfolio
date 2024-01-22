@@ -34,7 +34,7 @@ import gameProjectsData from "@/data/GameProjectsData.ts";
 export default Vue.extend({
   name: "GameProjects",
   components: {
-    ProjectsList,
+    ProjectsList
   },
   data: function () {
     return {

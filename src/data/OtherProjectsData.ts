@@ -19,6 +19,14 @@ export default [
 
       </div>
 
+      <hr>
+
+      <div class="paragraph">
+        <div class="notice">
+            Visualizar proyecto en <a href="https://www.figma.com/proto/GWX9KcbgbrEOuvpRn5Pz6N/AppYAcomer?node-id=161-3&starting-point-node-id=161%3A3&mode=design&t=G34xWuBDqXuqS23v-1" target="_blank">Figma</a>.
+        </div>
+      </div>
+
       <div style="margin-top:20px; margin-bottom:20px;">
         <a style="text-decoration: none;  color: #0F2C59;" href="d/Portfolio_appComidaDomicilio.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi Proyecto</a>
         <div style="clear:both"></div>
@@ -48,32 +56,48 @@ export default [
 
       </div>
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a style="text-decoration: none;  color: #0F2C59;" href="d/Portfolio_appBicis.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi Proyecto</a>
-        <div style="clear:both"></div>
-      </div>
+      <hr>
 
-      <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/mobile/iders/img1.png" alt="iDERS Screenshot" />
-        <img class="pc-screenshot" src="img/projects/mobile/iders/img2.png" alt="iDERS Screenshot" />
-        <img class="pc-screenshot" src="img/projects/mobile/iders/img3.png" alt="iDERS Screenshot" /> 
-      </div>
-    `, "#DAB88B"),
-
-    new ProjectData("project-9", "FontLine", "img/projects/mobile/fontline-prueba.jpg", `
       <div class="paragraph">
-        <strong>FontLine</strong> es una aplicación para la búsqueda de fuentes de agua potable que ofrece direcciones,
-        <br/>
-        opiniones y valoraciones reales sobre su ubicación y estado.
-        <br/>
-        El usuario típico se encuentra en torno a los 35-75 años de edad, donde buscan información sobre
-        fuentes cercanas para poder beber agua de calidad.
-        <br/>
+        <div class="notice">
+            Visualizar proyecto en <a href="https://www.figma.com/proto/BGl6cvqHiPpTGjFnBwH8OP/AppiDERS?type=design&node-id=5-1036&t=pi3auO3CLpI5ojWi-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=5%3A1036&show-proto-sidebar=1&mode=design" target="_blank">Figma</a>.
+        </div>
+      </div>
+      
+      <div style="margin-top:20px; margin-bottom:20px;">
+      <a style="text-decoration: none;  color: #0F2C59;" href="d/Portfolio_appBicis.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi Proyecto</a>
+      <div style="clear:both"></div>
+      </div>
+      
+      <div class="paragraph center">
+      <img class="pc-screenshot" src="img/projects/mobile/iders/img1.png" alt="iDERS Screenshot" />
+      <img class="pc-screenshot" src="img/projects/mobile/iders/img2.png" alt="iDERS Screenshot" />
+      <img class="pc-screenshot" src="img/projects/mobile/iders/img3.png" alt="iDERS Screenshot" /> 
+      </div>
+      `, "#DAB88B"),
+      
+      new ProjectData("project-9", "FontLine", "img/projects/mobile/fontline-prueba.jpg", `
+      <div class="paragraph">
+      <strong>FontLine</strong> es una aplicación para la búsqueda de fuentes de agua potable que ofrece direcciones,
+      <br/>
+      opiniones y valoraciones reales sobre su ubicación y estado.
+      <br/>
+      El usuario típico se encuentra en torno a los 35-75 años de edad, donde buscan información sobre
+      fuentes cercanas para poder beber agua de calidad.
+      <br/>
+      
+      <span style="font-style: italic; color: #9db6cc;">
+      Herramientas: Figma. 
+      </span>
+      
+      </div>
+      
+      <hr>
 
-        <span style="font-style: italic; color: #9db6cc;">
-          Herramientas: Figma. 
-        </span>
-
+      <div class="paragraph">
+        <div class="notice">
+            Visualizar proyecto en <a href="https://www.figma.com/proto/kQWXDOe8qjx81aYHHBio2T/AppFuentes?node-id=25-731&starting-point-node-id=25%3A731&mode=design&t=u4BHlvaM3IhNqIHb-1" target="_blank">Figma</a>.
+        </div>
       </div>
 
       <div style="margin-top:20px; margin-bottom:20px;">

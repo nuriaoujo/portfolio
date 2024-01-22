@@ -1,4 +1,10 @@
 .dialog-content {
+    h2 {
+        font-weight: 500;
+        font-family: 'Fira Sans';
+        color: #0F2C59;
+    }
+
     background-color: #F8F0E5 !important;
 
     // Add custom styles for your projects descriptions here
@@ -13,8 +19,8 @@
     }
 
     iframe.youtube {
-        width: 100%;
         min-height: 300px;
+        width: 100%;
     }
 
     .phone-screenshot {
@@ -26,10 +32,15 @@
     }
 
     .notice {
-        border:1px solid rgb(0, 85, 0);
-        background-color: rgb(144, 196, 144);
-        color: rgb(1, 99, 1);
+        background-color: #b7cadb75;
+        border:1px solid #96aec5;
+        color: #435a6f;
         padding: 10px;
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+        }
     }
 
     a {
@@ -49,8 +60,9 @@
         }
 
         .phone-screenshot {
-            margin: 15px;
-            width : 300px;
+            height: 200px;
+            object-fit: cover;
+            width : 350px;
         }
     
         .pc-screenshot {
