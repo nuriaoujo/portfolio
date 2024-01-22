@@ -13,7 +13,7 @@
 
       <div style="margin-top: 40px;">En estos momentos busco empleo como <strong>Desarrolladora Front End</strong>, 
       pero estoy abierta a explorar otras posibilidades laborales. Te invito a que nos mantengamos en contacto a través 
-      de mi correo <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o pulsando el siguiente botón.</div>
+      de mi correo <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o pulsando el siguiente botón:</div>
     
       <div class="button-connect">
         <router-link class="router-link" to="/contact">

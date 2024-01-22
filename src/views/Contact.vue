@@ -4,7 +4,7 @@
     <h1>¡Conectemos!</h1>
 
     <div style="margin-bottom:40px;">
-      Actualmente estoy en búsqueda de empleo,<br/>
+      Actualmente <strong>estoy buscando empleo</strong>,<br/>
       Estoy explorando nuevas oportunidades profesionales y me encantaría formar parte de vuestro equipo. <br/>
       Si considerais que mi perfil puede contribuir a vuestros proyectos... ¡No dudéis en contactar conmigo! <br/>
       ¡Gracias por visitar mi portfolio!</div>
