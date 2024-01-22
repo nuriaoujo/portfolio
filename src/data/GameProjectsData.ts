@@ -29,15 +29,6 @@ export default [
         <div style="clear:both"></div>
       </div>
 
-    </div>
-    <div class="paragraph center">
-    <iframe width="660" height="405" src="https://www.youtube.com/embed/WbxBqav22pE?si=16SSHcufayQZegin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-
-    <hr>
-
-    <h2>Capturas del proyecto</h2>
-
     <div id="slideshow">
         <div class="slide-wrapper">
              
