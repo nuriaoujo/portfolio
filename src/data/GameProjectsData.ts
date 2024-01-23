@@ -87,7 +87,7 @@ export default [
     </div>
     `, "#DAB88B"),
 
-    new ProjectData("project-3", "Gifs App", "img/projects/project-2.png", `
+    new ProjectData("project-3", "Gifs App", "img/projects/project-3.png", `
     <div class="paragraph">
         <strong>Gifs App</strong> es mi proyecto más reciente realizado con Angular. Con este ejercicio estoy aprendiendo las bases de
         <br/>
@@ -105,12 +105,12 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        Visualizar demo en <a href="https://github.com/nuriaoujo/gifts-app-angularproject" target="_blank">GitHub Pages</a>.
+        Visualizar demo en <a href="https://nuriaoujo.github.io/gifts-app-angularproject/" target="_blank">GitHub Pages</a>.
         </div>
     </div>
 
     <div class="paragraph">
-        <img class="slide-number" src="img/projects/web/extras/todoapp-img.png" alt="iDERS Screenshot" />
+        <img class="slide-number" src="img/projects/web/extras/gifsapp-img.png" alt="iDERS Screenshot" />
     </div>
     `, "#DAB88B"),
 
