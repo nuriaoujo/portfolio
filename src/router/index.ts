@@ -42,8 +42,7 @@ const routes: Array<RouteConfig> = [
 ]
 
 const router = new VueRouter({
-  routes,
-  base: '/portfolio/',
+  routes
 })
 
 export default router
