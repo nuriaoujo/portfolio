@@ -44,7 +44,6 @@ const routes: Array<RouteConfig> = [
 const router = new VueRouter({
   routes,
   base: '/portfolio/',
-  mode: 'history'
 })
 
 export default router
