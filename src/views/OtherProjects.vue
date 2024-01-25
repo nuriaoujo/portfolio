@@ -1,26 +1,40 @@
 <template>
-  <div>
+  <main>
     <h1>Diseño UX/UI</h1>
 
-    <div style="margin-bottom: 30px;">
+    <p>
       Gracias al Curso en <strong>Diseño de Experiencia de Usuario</strong>, he realizado tres proyectos finales de aplicación,
-      <br/>
       tanto móvil como web, siguiendo rigurosamente todos los pasos de aprendidos.
-      <br/>
-      <br/>
-
-    </div>
-    <ProjectsList v-bind:projects="projects" />
-    <br/>
-  </div>
+    </p>
+    <ProjectsList v-bind:projects="projects" class="proyectslist"/>
+  </main>
 </template>
 
 <style scoped>
+
+p{
+  margin-bottom: 40px;
+}
+
+.proyectslist {
+  margin-bottom: 30px;
+}
 
 h1 {
   font-family: 'Fira Sans';
 }
 
+@media only screen and (max-width: 620px){
+
+main {
+  margin: 12px;
+}
+
+.proyectslist {
+  margin-bottom: 650px;
+}
+
+}
 </style>
 
 <script lang="ts">
