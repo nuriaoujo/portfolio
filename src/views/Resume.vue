@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <h1>Perfil</h1>
 
     <div class="paragraph">
@@ -116,7 +116,7 @@
 
 
     </div>
-  </div>
+  </main>
 </template>
 
 <script lang="ts">
@@ -197,6 +197,27 @@ h4 {
 }
 
 @media only screen and (min-width: 620px){
+  .paragraph {
+    float: left;
+  }
+
+  .photo {
+    float: left;
+    padding: 30px;
+    padding-left: 80px;
+  }
+
+  .skill-set {
+    float: left;
+    padding-right: 60px; 
+  }
+}
+
+@media only screen and (max-width: 620px){
+  main {
+    margin: 12px;
+  }
+
   .paragraph {
     float: left;
   }

@@ -3,11 +3,17 @@
     
     <h1>¡Conectemos!</h1>
 
-    <div style="margin-bottom:40px;">
-      Actualmente <strong>estoy buscando empleo</strong>,<br/>
-      Estoy explorando nuevas oportunidades profesionales y me encantaría formar parte de vuestro equipo. <br/>
-      Si considerais que mi perfil puede contribuir a vuestros proyectos... ¡No dudéis en contactar conmigo! <br/>
-      ¡Gracias por visitar mi portfolio!</div>
+    <article>
+      <p>Actualmente <span>estoy buscando empleo</span>,</p>
+      <p>
+        Estoy explorando nuevas oportunidades profesionales y me encantaría formar parte de vuestro equipo.
+        Si considerais que mi perfil puede contribuir a vuestros proyectos... ¡No dudéis en contactar conmigo!
+      </p>
+      <p>
+        ¡Gracias por visitar mi portfolio!
+      </p>
+      
+    </article>
 
     <ul>
       <li>
@@ -28,6 +34,14 @@
 </template>
 
 <style scoped>
+
+article {
+  margin-bottom:40px;
+}
+
+span {
+  font-weight: bold;
+}
 
 h1 {
   font-family: 'Fira Sans';
