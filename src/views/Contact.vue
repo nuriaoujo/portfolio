@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     
     <h1>¡Conectemos!</h1>
 
@@ -11,20 +11,20 @@
 
     <ul>
       <li>
-        <i class="fa fa-envelope-o fa-lg fa-fw"></i>
+        <i class="fa fa-envelope-o fa-lg fa-fw icon"></i>
         <a href="mailto:oujomiguez.nuria@gmail.com" target="_blank">oujomiguez.nuria@gmail.com</a>
       </li>
       <li>
-        <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
+        <i class="fa fa-linkedin fa-lg fa-fw icon" style="vertical-align: -5%;"></i>
         <a href="https://www.linkedin.com/in/nuriaoujo/" target="_blank">linkedin.com/in/nuriaoujo/</a>
       </li>
       <li>
-        <i class="fa fa-github fa-lg fa-fw"></i>
+        <i class="fa fa-github fa-lg fa-fw icon"></i>
         <a href="https://github.com/nuriaoujo" target="_blank">github.com/nuriaoujo</a>
       </li>
     </ul>
 
-  </div>
+  </main>
 </template>
 
 <style scoped>
@@ -43,7 +43,18 @@ li {
     font-size: 1.2em;
   }
 
+@media only screen and (max-width: 620px){
+  main {
+    margin: 12px;
+  }
+
+  .icon {
+    weight:10px;
+  }
+}
+
 @media only screen and (min-width: 620px){
+
   ul {
     padding-inline-start: 40px;
   }
