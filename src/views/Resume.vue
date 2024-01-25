@@ -2,31 +2,43 @@
   <main>
     <h1>Perfil</h1>
 
-    <div class="paragraph">
-      <div class="main-txt">Soy <strong>Nuria Oujo</strong>,</div> Desarrolladora Junior Full Stack y Diseñadora UX/UI.
-      <br/>
-      <br/>
-      Con una formación inicial en <strong>Bellas Artes</strong>, mi trayectoria ha evolucionado hacia el ámbito tecnológico,
-      destacando mi especialización en <strong>Diseño de Experiencia de Usuario</strong> (UX) mediante un curso de Google.
-      Impulsada por el deseo de ampliar mis conocimientos, me sumergí en el desarrollo Frontend a través de Campus Dual TIC, 
-      culminando en la exitosa conclusión de un <strong>Bootcamp en Desarrollo Full Stack</strong>.
-      <br/>
-      <br/>
-      Mi enfoque multidisciplinario y mi capacidad para integrar creatividad y habilidades técnicas me posicionan como una candidata polivalente, 
-      lista para afrontar nuevos desafíos y seguir formándome como programadora Full Stack.
-      <br/>
-      <br/>
-      Gracias por valorar mi perfil, os invito a que 
-      <router-link to="/contact">conectéis conmigo</router-link>.
-
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/nuriaoujo_cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi CV</a>
-        <div style="clear:both"></div>
-      </div>
-    </div>
     <div class="photo">
       <img src="img/avatar_nunu.png" alt="Nuria Oujo img" />
     </div>
+
+    <article>
+
+      <p class="main-txt">Soy <span>Nuria Oujo</span>,</p> 
+
+      <p>
+        Desarrolladora Junior Full Stack y Diseñadora UX/UI.
+      </p>
+
+      <p>
+        Con una formación inicial en <span>Bellas Artes</span>, mi trayectoria ha evolucionado hacia el ámbito tecnológico,
+        destacando mi especialización en <span>Diseño de Experiencia de Usuario</span> (UX) mediante un curso de Google.
+        Impulsada por el deseo de ampliar mis conocimientos, me sumergí en el desarrollo Frontend a través de Campus Dual TIC, 
+        culminando en la exitosa conclusión de un <span>Bootcamp en Desarrollo Full Stack</span>.
+      </p>
+
+      <p>
+        Mi enfoque multidisciplinario y mi capacidad para integrar creatividad y habilidades técnicas me posicionan como una candidata polivalente, 
+        lista para afrontar nuevos desafíos y seguir formándome como programadora Full Stack.
+      </p>
+      
+      <p>
+        Gracias por valorar mi perfil, os invito a que 
+        <router-link to="/contact">conectéis conmigo</router-link>.
+      </p>
+      
+
+      <div class="download">
+        <a href="d/nuriaoujo_cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descarga mi CV</a>
+        <div style=""></div>
+      </div>
+
+    </article>
+    
 
     <div style="clear:both"></div>
 
@@ -133,6 +145,10 @@ export default Vue.extend({
 
 <style scoped>
 
+span {
+  font-weight: bold;
+}
+
 h1 {
   font-family: 'Fira Sans';
 }
@@ -161,17 +177,24 @@ h4 {
   font-style: italic;
 }
 
-.paragraph {
+article {
   max-width: 700px;
+  float: left;
 }
 
 .main-txt {
   font-size: 1.50rem;
 }
 
-.download-link {
+.download {
+  margin-top:20px;
+  margin-bottom:70px;
+
+  a {
   float:left;
   margin-right: 50px;
+  }
+
 }
 
 .full-content div {
@@ -192,21 +215,13 @@ h4 {
 }
 
 .photo {
-  margin-top: 50px;
+  position: relative;
+  float: right;
+  margin-top: 10%;
   text-align: center;
 }
 
 @media only screen and (min-width: 620px){
-  .paragraph {
-    float: left;
-  }
-
-  .photo {
-    float: left;
-    padding: 30px;
-    padding-left: 80px;
-  }
-
   .skill-set {
     float: left;
     padding-right: 60px; 
@@ -218,14 +233,16 @@ h4 {
     margin: 12px;
   }
 
-  .paragraph {
-    float: left;
-  }
-
   .photo {
-    float: left;
-    padding: 30px;
-    padding-left: 80px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
+    img {
+      height: 180px;
+      width: 180px;
+    }
+
   }
 
   .skill-set {
