@@ -1,9 +1,9 @@
 <template>
-  <div class="footer">
+  <footer class="footer">
     
     <div class="left">Nuria Oujo</div>
     <div class="right">Contactemos a través de <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o <router-link to="/contact">pulsando aquí</router-link></div>
-  </div>
+  </footer>
 </template>
 
 <script lang="ts">
