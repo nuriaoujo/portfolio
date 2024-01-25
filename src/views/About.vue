@@ -6,18 +6,23 @@
       <img src="img/avatar_nunu.png" alt="Nuria Oujo img"/>
     </div>
 
-    <section class="paragraph">
-      <article>
-        Soy <strong>Nuria Oujo</strong>, Desarrolladora Junior Full Stack y Diseñadora UX/UI.<br/>
-      </article>
+    <article>
+      <p>
+        Soy <span class="bold">Nuria Oujo</span>, Desarrolladora Junior Full Stack y Diseñadora UX/UI.
+      </p>
 
-      <article class="actual-position-art">Actualmente colaboro activamente en la gestión de redes del club de orientación
-      <br/>
-      <a href="https://www.instagram.com/adcarnela/" target="_blank">ADC Arnela</a> mientras me formo en <router-link to="/resume">Desarrollo Full Stack</router-link>.</article>
+      <p class="actual-position-art">
+        Actualmente colaboro activamente en la gestión de redes del club de orientación
+        <br>
+        <a href="https://www.instagram.com/adcarnela/" target="_blank">ADC Arnela</a> 
+        mientras me formo en <router-link to="/resume">Desarrollo Full Stack</router-link>.
+      </p>
 
-      <article class="actual-position-art">En estos momentos busco empleo como <strong>Desarrolladora Front End</strong>, 
+      <p class="actual-position-art">
+      En estos momentos busco empleo como <span class="bold">Desarrolladora Front End</span>, 
       pero estoy abierta a explorar otras posibilidades laborales. Te invito a que nos mantengamos en contacto a través 
-      de mi correo <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o pulsando el siguiente botón:</article>
+      de mi correo <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o pulsando el siguiente botón:
+      </p>
     
       <div class="button-connect">
         <router-link class="router-link" to="/contact">
@@ -26,7 +31,7 @@
         </router-link>
         
       </div>
-    </section>
+    </article>
 
     <div style="clear:both"></div>
 
@@ -56,7 +61,7 @@ h1 {
   display: inline-block;
 }
 
-.paragraph {
+article{
   max-width: 700px;
   margin-bottom: 20px;
 }
@@ -67,8 +72,12 @@ h1 {
   text-align: center;
 
   img {
-    width: 200px
+    width: 200px;
   }
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .actual-position-art {
@@ -79,13 +88,19 @@ h1 {
   main {
     margin: 12px;
   }
-  .paragraph {
+
+  article {
     float: left;
   }
 
   .photo {
     width: 100%;
-    margin-bottom: 7%
+    margin-bottom: 7%;
+
+    img {
+      width: 170px;
+    }
+
   }
 
   .button-connect {
