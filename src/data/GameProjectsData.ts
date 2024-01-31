@@ -114,28 +114,27 @@ export default [
     </div>
     `, "#DAB88B"),
 
-    new ProjectData("project-4", "TODO App", "img/projects/project-4.png", `
+    new ProjectData("project-4", "EdgeLedger", "img/projects/project-4.png", `
     <div class="paragraph">
-    <strong>TODO App</strong> es un proyecto creado en el curso de JavaScript moderno de dev/talles, donde se elabora
-    <br/>
-    una aplicación web que añade y elimina elementos a una lista de cosas para hacer.
-    <br/>
-    Para realizar el proyecto, se ha utilizado HTML5, CSS3 y JavaScript.
-    <br/>
+    <strong>EdgeLedger</strong> es una página web creada durante el curso
+    <i>
+    Modern HTML & CSS From The Beginning (Including Sass) 
+    </i> con el fin de repasar lo básico en HTML5 y CSS3, junto con unos pequeños añadidos en JavaScript.
+    <br>
     <span style="font-style: italic; color: #9db6cc;">
-        Tecnologías: JavaScript · HTML5 · CSS3 · Vite. 
+        Tecnologías: HTML5 · CSS3 · JavaScript. 
     </span>
 
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Visualizar demo en <a href="https://nuriaoujo.github.io/todo-app/" target="_blank">GitHub Pages</a>.
+        Visualizar demo en <a href="https://nuriaoujo.github.io/EdgeLedger-project/" target="_blank">GitHub Pages</a>.
         </div>
     </div>
              
     <div class="paragraph">
-        <img class="slide-number" src="img/projects/web/extras/todoapp-img.png" alt="iDERS Screenshot" />
+        <img class="slide-number" src="img/projects/web/extras/edgeledger-img.png" alt="iDERS Screenshot" />
     </div>
     `, "#DAB88B"),
 

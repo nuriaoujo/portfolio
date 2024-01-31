@@ -3,7 +3,7 @@
     <h1>Desarrollo Full Stack</h1>
 
     <p>
-      Actualmente me estoy formando como <span>Desarrolladora Full Stack</span>.
+      Actualmente me estoy formando como <strong>Desarrolladora Full Stack</strong>.
       <br/>
       Estos son algunos de los proyectos que he finalizado durante estos últimos meses.
     </p>
@@ -29,10 +29,6 @@ h1 {
 p {
   margin-bottom: 30px;
   margin-top: 20px;
-}
-
-span {
-  font-weight: bold;
 }
 
 @media only screen and (max-width: 620px){

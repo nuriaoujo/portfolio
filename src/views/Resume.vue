@@ -8,17 +8,17 @@
 
     <article>
 
-      <p class="main-txt">Soy <span>Nuria Oujo</span>,</p> 
+      <p class="main-txt">Soy <strong>Nuria Oujo</strong>,</p> 
 
       <p>
         Desarrolladora Junior Full Stack y Diseñadora UX/UI.
       </p>
 
       <p>
-        Con una formación inicial en <span>Bellas Artes</span>, mi trayectoria ha evolucionado hacia el ámbito tecnológico,
-        destacando mi especialización en <span>Diseño de Experiencia de Usuario</span> (UX) mediante un curso de Google.
+        Con una formación inicial en <strong>Bellas Artes</strong>, mi trayectoria ha evolucionado hacia el ámbito tecnológico,
+        destacando mi especialización en <strong>Diseño de Experiencia de Usuario</strong> (UX) mediante un curso de Google.
         Impulsada por el deseo de ampliar mis conocimientos, me sumergí en el desarrollo Frontend a través de Campus Dual TIC, 
-        culminando en la exitosa conclusión de un <span>Bootcamp en Desarrollo Full Stack</span>.
+        culminando en la exitosa conclusión de un <strong>Bootcamp en Desarrollo Full Stack</strong>.
       </p>
 
       <p>
@@ -144,10 +144,6 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-
-span {
-  font-weight: bold;
-}
 
 h1 {
   font-family: 'Fira Sans';

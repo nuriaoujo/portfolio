@@ -8,7 +8,7 @@
 
     <article>
       <p>
-        Soy <span class="bold">Nuria Oujo</span>, Desarrolladora Junior Full Stack y Diseñadora UX/UI.
+        Soy <strong>Nuria Oujo</strong>, Desarrolladora Junior Full Stack y Diseñadora UX/UI.
       </p>
 
       <p class="actual-position-art">
@@ -19,7 +19,7 @@
       </p>
 
       <p class="actual-position-art">
-      En estos momentos busco empleo como <span class="bold">Desarrolladora Front End</span>, 
+      En estos momentos busco empleo como <strong>Desarrolladora Front End</strong>, 
       pero estoy abierta a explorar otras posibilidades laborales. Te invito a que nos mantengamos en contacto a través 
       de mi correo <a href="mailto:oujomiguez.nuria@gmail.com">oujomiguez.nuria@gmail.com</a> o pulsando el siguiente botón:
       </p>
@@ -74,10 +74,6 @@ article{
   img {
     width: 200px;
   }
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .actual-position-art {

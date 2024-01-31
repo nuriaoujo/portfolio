@@ -4,7 +4,7 @@
     <h1>¡Conectemos!</h1>
 
     <article>
-      <p>Actualmente <span>estoy buscando empleo</span>,</p>
+      <p>Actualmente <strong>estoy buscando empleo</strong>,</p>
       <p>
         Estoy explorando nuevas oportunidades profesionales y me encantaría formar parte de vuestro equipo.
         Si considerais que mi perfil puede contribuir a vuestros proyectos... ¡No dudéis en contactar conmigo!
@@ -37,10 +37,6 @@
 
 article {
   margin-bottom:40px;
-}
-
-span {
-  font-weight: bold;
 }
 
 h1 {
